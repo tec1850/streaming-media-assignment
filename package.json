@@ -1,0 +1,30 @@
+{
+ "name": "streaming-media-assignment",
+ "version": "1.0.0",
+ "engines": {
+  "node": "10.16.x",
+  "npm": "6.9.x"
+ },
+ "description": "Streaming media assignment.",
+ "main": "node ./src/server.js",
+ "scripts": {
+  "start": "node ./src/server.js",
+  "pretest": "eslint ./src --fix",
+  "test": "echo \"No Tests\""
+ },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/tec1850/streaming-media-assignment.git"
+ },
+ "author": "Taylor Cox",
+ "license": "UNLICENSED",
+ "bugs": {
+  "url": "https://github.com/tec1850/streaming-media-assignment/issues"
+ },
+ "homepage": "https://github.com/tec1850/streaming-media-assignment#readme",
+ "devDependencies": {
+  "eslint": "^6.4.0",
+  "eslint-config-airbnb": "^18.0.1",
+  "eslint-plugin-import": "^2.18.2"
+ }
+}
